@@ -63,7 +63,7 @@ class CreateExerciseRequestSchema(BaseModel):
     model_config = ConfigDict(populate_by_name=True, alias_generator=to_camel)
 
     title: str = Field(default_factory=fake.sentence)
-    course_id: str = Field(default_factory=fake.uuid4)
+    course_id: str = Field(default_factory=fake.uuid4)     # Генерация только для негативных тестов
     max_score: int = Field(default_factory=fake.max_score)
     min_score: int = Field(default_factory=fake.min_score)
     order_index: int = Field(default_factory=fake.integer)
