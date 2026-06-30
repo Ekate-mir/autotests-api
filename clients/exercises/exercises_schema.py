@@ -44,7 +44,7 @@ class UpdateExerciseResponseSchema(BaseModel):
     """
     Описание структуры ответа обновления данных задания.
     """
-    exercises: ExerciseSchema
+    exercise: ExerciseSchema
 
 
 class GetExercisesQuerySchema(BaseModel):
