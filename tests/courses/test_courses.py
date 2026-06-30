@@ -32,7 +32,6 @@ class TestCourses:
     def test_create_course(self,
                            courses_client: CoursesClient,
                            function_user: UserFixture,
-                           function_course: CourseFixture,
                            function_file: FileFixture):
         request = CreateCourseRequestSchema(preview_file_id=function_file.response.file.id,
                                             created_by_user_id=function_user.response.user.id)

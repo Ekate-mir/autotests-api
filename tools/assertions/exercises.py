@@ -1,0 +1,20 @@
+from clients.exercises.exercises_schema import CreateExerciseRequestSchema, ExerciseSchema
+from tools.assertions.base import assert_equal
+
+
+def assert_create_exercise_response(request: CreateExerciseRequestSchema,
+                                    response: ExerciseSchema):
+    """
+    Проверяет, что ответ на создание задания соответствует запросу.
+
+    :param request: Исходный запрос на создание задания.
+    :param response: Ответ API с данными курса.
+    :raises AssertionError: Если хотя бы одно поле не совпадает.
+    """
+    assert_equal(request.title, response.title, "title")
+    assert_equal(request.course_id, response.course_id, "course_id")
+    assert_equal(request.max_score, response.max_score, "max_score")
+    assert_equal(request.min_score, response.min_score, "min_score")
+    assert_equal(request.order_index, response.order_index, "order_index")
+    assert_equal(request.description, response.description, "description")
+    assert_equal(request.estimated_time, response.estimated_time, "estimated_time")
