@@ -7,12 +7,12 @@ from tools.assertions.base import assert_equal, assert_length
 from tools.assertions.errors import assert_internal_error_response
 from tools.logger import get_logger
 
-logger = get_logger("FILES_ASSERTIONS")
+logger = get_logger("EXERCISES_ASSERTIONS")
 
 
 @allure.step("Check create exercise response")
 def assert_create_exercise_response(request: CreateExerciseRequestSchema,
-                                    response: ExerciseSchema):
+                                    response: CreateExerciseResponseSchema):
     """
     Проверяет, что ответ на создание задания соответствует запросу.
 
@@ -22,13 +22,13 @@ def assert_create_exercise_response(request: CreateExerciseRequestSchema,
     """
     logger.info('Check create exercise response')
 
-    assert_equal(request.title, response.title, "title")
-    assert_equal(request.course_id, response.course_id, "course_id")
-    assert_equal(request.max_score, response.max_score, "max_score")
-    assert_equal(request.min_score, response.min_score, "min_score")
-    assert_equal(request.order_index, response.order_index, "order_index")
-    assert_equal(request.description, response.description, "description")
-    assert_equal(request.estimated_time, response.estimated_time, "estimated_time")
+    assert_equal(request.title, response.exercise.title, "title")
+    assert_equal(request.course_id, response.exercise.course_id, "course_id")
+    assert_equal(request.max_score, response.exercise.max_score, "max_score")
+    assert_equal(request.min_score, response.exercise.min_score, "min_score")
+    assert_equal(request.order_index, response.exercise.order_index, "order_index")
+    assert_equal(request.description, response.exercise.description, "description")
+    assert_equal(request.estimated_time, response.exercise.estimated_time, "estimated_time")
 
 
 @allure.step("Check exercise")
@@ -96,7 +96,7 @@ def assert_exercise_not_found_response(actual: InternalErrorResponseSchema):
     """
     logger.info('Check exercise not found response')
 
-    expected = InternalErrorResponseSchema(detail="Exercise not found")
+    expected = InternalErrorResponseSchema(details="Exercise not found")
     assert_internal_error_response(actual, expected)
 
 

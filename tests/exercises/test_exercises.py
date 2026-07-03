@@ -42,7 +42,7 @@ class TestExercises:
         response_data = CreateExerciseResponseSchema.model_validate_json(response.text)
 
         assert_status_code(response.status_code, HTTPStatus.OK)
-        assert_create_exercise_response(request, response_data.exercise)
+        assert_create_exercise_response(request, response_data)
 
         validate_json_schema(response.json(), response_data.model_json_schema())
 
