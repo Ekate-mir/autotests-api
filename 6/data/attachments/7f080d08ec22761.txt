@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDA5OjI3OjUxLjA2MjM4NSIsInVzZXJfaWQiOiIyOTViMjg5ZC0yYjU2LTRkYTItYTkwYi00NzY5N2NkZTVmZTgifQ._efxYlhTXuj1vpjoTCd3_Ur1_mQJETAp63nNQ8Y-m2E' \
+ -H 'content-length: 406' \
+ -H 'content-type: application/json' \
+ -d '{"title":"South different travel moment name reveal manage.","maxScore":80,"minScore":29,"description":"Heavy list yeah stop. Guess stop treatment unit the memory. Personal project easy each series main.\nTalk figure necessary away. Say some black nothing scientist.","estimatedTime":"2 weeks","previewFileId":"e6dffa81-bf9e-4eb9-ac4f-64e5f5b0ae91","createdByUserId":"295b289d-2b56-4da2-a90b-47697cde5fe8"}'

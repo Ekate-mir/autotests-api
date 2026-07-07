@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDA5OjI3OjQ4LjQ1MjAzMyIsInVzZXJfaWQiOiJiNGZiZDczYi04NDE4LTRkMzUtOGViNi02OTk2NTgwNTlhNzEifQ.PbuYznOrDH_IyVOyRze1hwFebvro6sPxevUed5tMUkg' \
+ -H 'content-length: 382' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Rich thought be truth.","maxScore":56,"minScore":8,"description":"East range history street. Candidate sound send music attack listen. Soon born issue player full property source. Wide billion issue term.\nPart space somebody media.","estimatedTime":"6 weeks","previewFileId":"04420fe2-f3cb-4b38-b64a-1c782870c71a","createdByUserId":"b4fbd73b-8418-4d35-8eb6-699658059a71"}'

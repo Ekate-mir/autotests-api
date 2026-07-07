@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDA5OjI3OjQ5LjU2MDI2NyIsInVzZXJfaWQiOiI0M2ZhYmU2ZC1kZDQwLTQwYWItYTdiMy1jYzNhMDlkZDMyMzQifQ.RDFAefFJMkGywyfRoBfdQqJXaE2aNh2WC009y5XhjMM' \
+ -H 'content-length: 363' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Receive task one base five strong.","courseId":"5144e354-dfda-4576-b130-fd97ad606a95","maxScore":63,"minScore":16,"orderIndex":49,"description":"Hold road discuss whole resource. Throw reason administration show central book computer.\nTrue value particularly say. Blue something employee these minute. Public song beat both.","estimatedTime":"2 weeks"}'

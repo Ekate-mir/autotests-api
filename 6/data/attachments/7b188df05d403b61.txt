@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDA5OjI3OjQ5LjU2MDI2NyIsInVzZXJfaWQiOiI0M2ZhYmU2ZC1kZDQwLTQwYWItYTdiMy1jYzNhMDlkZDMyMzQifQ.RDFAefFJMkGywyfRoBfdQqJXaE2aNh2WC009y5XhjMM' \
+ -H 'content-length: 383' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Phone first inside four.","maxScore":100,"minScore":12,"description":"Line wind whatever trouble blue present majority focus. Company list direction until both public senior feel. Marriage fire serious participant real perform share.","estimatedTime":"3 weeks","previewFileId":"55d01bf6-4101-4809-962f-9e39a498e6fb","createdByUserId":"43fabe6d-dd40-40ab-a7b3-cc3a09dd3234"}'

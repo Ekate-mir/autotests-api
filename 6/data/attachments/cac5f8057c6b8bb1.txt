@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/courses/d32f78fc-d953-4587-a10f-2e4b05ddc73b' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDA5OjI3OjQ4LjQ1MjAzMyIsInVzZXJfaWQiOiJiNGZiZDczYi04NDE4LTRkMzUtOGViNi02OTk2NTgwNTlhNzEifQ.PbuYznOrDH_IyVOyRze1hwFebvro6sPxevUed5tMUkg' \
+ -H 'content-length: 293' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Will anything kid his.","maxScore":89,"minScore":8,"description":"My affect yet. Any oil camera much blood onto. Key here myself him common power.\nCheck thought test skin. Life two north interesting run begin economy. Center him mention fact notice ago.","estimatedTime":"10 weeks"}'

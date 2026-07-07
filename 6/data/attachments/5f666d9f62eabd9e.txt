@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDA5OjI3OjQ2LjY4NzIyMCIsInVzZXJfaWQiOiJhMDhkNzZlMy1kZTZjLTRlMjYtODliYS01NDVkZjQ1N2U1MDgifQ.GaHYkmXqFMECXHLHgjygIFVT1SkeE3CZcKDrgmhSFyI' \
+ -H 'content-length: 363' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Return food total these imagine floor.","maxScore":54,"minScore":5,"description":"Change fill herself section what matter guess. Next long before financial represent economy. Blood nation model study pattern wait.","estimatedTime":"7 weeks","previewFileId":"833febc1-6a1f-4de8-8563-843ffbb26eb8","createdByUserId":"a08d76e3-de6c-4e26-89ba-545df457e508"}'

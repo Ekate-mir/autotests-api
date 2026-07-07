@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDA5OjI3OjQ5LjI4MDIzMCIsInVzZXJfaWQiOiJkMTA3MTM4Yy1iZmQ3LTQ2MDUtYWM4Ny0yNzkzODFjNjFjNWUifQ.okeCudOMEQVb1k22wPbgWz1JjQ53pN6qSwTB93zR6Yc' \
+ -H 'content-length: 358' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Happy authority according beyond.","courseId":"b58486be-868f-4e03-a1a4-0a9a62e53475","maxScore":97,"minScore":3,"orderIndex":68,"description":"Source guess health generation with dog day. Pass expert police few visit page box. Difficult week statement this.\nYet size yourself foreign kitchen. Letter number coach skill.","estimatedTime":"3 weeks"}'

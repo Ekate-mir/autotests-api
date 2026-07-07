@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDA5OjI3OjQ3Ljg0NDk1MiIsInVzZXJfaWQiOiJlMWUzYzNlNC00Njc4LTQwNWMtYTljZi0wNzQwMDc2OGNlNDQifQ.MB2-I2hzy5vCb8OuAqltwUKOQto0Bqb4lyA5ziUony4' \
+ -H 'content-length: 327' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Design night paper less six.","maxScore":74,"minScore":30,"description":"Politics west step movie board guy feeling. Cut reason wrong too represent human. Rest push run benefit.","estimatedTime":"8 weeks","previewFileId":"225c0895-3ef5-4b79-9ad3-9d1ea0b5e170","createdByUserId":"e1e3c3e4-4678-405c-a9cf-07400768ce44"}'

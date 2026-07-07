@@ -1,0 +1,19 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:26 Make PATCH request to http://localhost:8000/api/v1/courses/d32f78fc-d953-4587-a10f-2e4b05ddc73b
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/courses/d32f78fc-d953-4587-a10f-2e4b05ddc73b
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:23 Check update course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "title" equals to Will anything kid his.
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "max_score" equals to 89
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "min_score" equals to 8
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "description" equals to My affect yet. Any oil camera much blood onto. Key here myself him common power.
+Check thought test skin. Life two north interesting run begin economy. Center him mention fact notice ago.
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "estimated_time" equals to 10 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

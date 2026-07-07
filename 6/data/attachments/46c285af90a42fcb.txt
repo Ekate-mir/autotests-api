@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDA5OjI3OjQ3LjI0MjYyNiIsInVzZXJfaWQiOiI3MGNjMTRlYi1kNTE1LTQ3MzItOTRkNi1kY2U3OGM2M2UwMTMifQ.mN8E51595bh4an2HIM7nskvlFEFV4OP2KNrMjDH3al0' \
+ -H 'content-length: 414' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Office only country sense doctor thought nature.","maxScore":66,"minScore":17,"description":"Along former media no herself smile. Mean open try environmental son read him development. Both himself should.\nLocal college garden pay. Sometimes policy soldier never.","estimatedTime":"10 weeks","previewFileId":"360b700c-035e-42f9-a877-3f1c2337de84","createdByUserId":"70cc14eb-d515-4732-94d6-dce78c63e013"}'

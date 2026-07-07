@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/exercises/6d607826-4288-4c68-a121-d4d1a1cc56cd' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDA5OjI3OjQ5LjU2MDI2NyIsInVzZXJfaWQiOiI0M2ZhYmU2ZC1kZDQwLTQwYWItYTdiMy1jYzNhMDlkZDMyMzQifQ.RDFAefFJMkGywyfRoBfdQqJXaE2aNh2WC009y5XhjMM' \
+ -H 'content-length: 318' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Eight must media power.","maxScore":82,"minScore":6,"orderIndex":49,"description":"Democratic research my plant. Send perhaps again. Forward answer explain think.\nDay ago group PM whom TV send. Society change challenge tough start fund well. Around high avoid total involve time.","estimatedTime":"8 weeks"}'
