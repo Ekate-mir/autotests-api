@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDA5OjExOjU4LjI0MDkxOSIsInVzZXJfaWQiOiI5YTA2ZGZlNC04ZmE3LTQxMjMtYmE4OS03YjcwYjU2YjM4YTYifQ.wSqXhH-yM4VG5GiKhkJXt2TJWTcrbEgDLnFwSqfePgQ' \
+ -H 'content-length: 314' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Him soldier bag perhaps money.","maxScore":80,"minScore":21,"description":"Travel action free mind back lose. New tough father phone.\nWhat apply nearly above much.","estimatedTime":"6 weeks","previewFileId":"965745e6-d4d0-4a6c-8b8c-3cae01b7d546","createdByUserId":"9a06dfe4-8fa7-4123-ba89-7b70b56b38a6"}'

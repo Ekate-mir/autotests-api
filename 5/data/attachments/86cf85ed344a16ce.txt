@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/courses/d69a3499-74e5-4311-8cc9-7913f9b2cb19' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDA5OjExOjU3LjQ4NDMyNCIsInVzZXJfaWQiOiJmN2Q1MzVkOC00MGEzLTRjZWMtYjM5Zi02MjQ0ZmE3NGUwM2MifQ.x5hHFxyEbNu9d-sIk9Qhj9ldhhbUW22CJJWPuzaPFpc' \
+ -H 'content-length: 227' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Section course eat thank soon these scene.","maxScore":69,"minScore":18,"description":"Fish education toward detail player. Sing quite away. Good individual night dark stop Republican none.","estimatedTime":"3 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDA5OjExOjU5LjI2Nzc4NyIsInVzZXJfaWQiOiI3MDJiMmM5NC1jNDFhLTQwZTMtYWJlMi0zMzZhNjQzZTlmNzQifQ.kUXDCfqdakb_GWnrds5gGJGRts5-wKeBYkSR-w1nJc4' \
+ -H 'content-length: 362' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Hour sort job six just person under.","maxScore":64,"minScore":24,"description":"Serve lose gun start today culture near. Man young room read add capital.\nRead wait image fast. Remember standard bill soon green.","estimatedTime":"2 weeks","previewFileId":"3e3185bc-2bcb-41cd-b595-f5ae202c8181","createdByUserId":"702b2c94-c41a-40e3-abe2-336a643e9f74"}'

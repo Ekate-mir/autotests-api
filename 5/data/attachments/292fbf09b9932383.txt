@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDA5OjExOjU1LjkzMTc2MyIsInVzZXJfaWQiOiIzMDIyNjE2Ny02MjYzLTRkYzgtYmVjNi0zYTU2ZGQ2ZGI1OWEifQ.4U4jcC4vamaqEwnXRbNFu7cyGCAsIDnpwupYbNEeJ8E' \
+ -H 'content-length: 387' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Thing two step city each.","maxScore":89,"minScore":30,"description":"Mouth theory especially easy around.\nShoulder section visit fund resource can but. Green TV concern statement law near. Test start back wife need difference continue.","estimatedTime":"3 weeks","previewFileId":"5f5de81c-b9e9-4c9d-8c8d-1cbfb2ceea8c","createdByUserId":"30226167-6263-4dc8-bec6-3a56dd6db59a"}'

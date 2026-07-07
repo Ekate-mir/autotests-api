@@ -1,0 +1,19 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:84 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "title" equals to Among attack mother step two.
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "max_score" equals to 72
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "min_score" equals to 26
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "description" equals to Crime be kid. Space top use enough social behind amount economic. Place market idea.
+Very surface receive open. Art section board participant picture model job kind. Fear relate effort.
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "estimated_time" equals to 5 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "preview_file" equals to 7b3ef0fd-0d06-4fbd-8819-a519da0d2ad4
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "preview_file" equals to 8b80e569-3938-402b-be65-217a55f13260
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

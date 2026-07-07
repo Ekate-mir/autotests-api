@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDA5OjExOjU2LjY4NTc5NyIsInVzZXJfaWQiOiI2OTNlMDMxMi1lNDQ0LTQ3NDItOWNmYS02ODRhMTI3OGU5YjUifQ.G6pz-qOkapEzf9X4BvSN4_HtSi9yYtH6E0WNmT__Jtk' \
+ -H 'content-length: 386' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Thought technology election majority evidence nothing.","maxScore":98,"minScore":29,"description":"Floor perhaps trip what.\nShoulder prove bed shoulder dream wrong. Toward major operation reach edge late. Event pick product agent rich.","estimatedTime":"9 weeks","previewFileId":"740c0bb8-8ebc-4fd7-bca7-ac01c83a3e35","createdByUserId":"693e0312-e444-4742-9cfa-684a1278e9b5"}'

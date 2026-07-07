@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDA5OjExOjU5LjUwODgwNSIsInVzZXJfaWQiOiI0NmZmOGE5Yy1mZDVmLTQ1MjMtOWYxNC01MjZkNTEwZDJkOTUifQ.u1rMw7CmXXgvvHZUnJn1IrvL7ASyhOvTk8A7kJfm664' \
+ -H 'content-length: 421' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Real catch you involve low spring continue floor.","maxScore":99,"minScore":17,"description":"Call father claim stand term quickly. Smile dog feel hot. Article stuff popular only.\nHalf sing full. Wind standard staff skin wind may. Forward really face despite ago attack.","estimatedTime":"3 weeks","previewFileId":"0f205f8c-4383-46d4-806d-297fc197097d","createdByUserId":"46ff8a9c-fd5f-4523-9f14-526d510d2d95"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDA5OjExOjU3LjQ4NDMyNCIsInVzZXJfaWQiOiJmN2Q1MzVkOC00MGEzLTRjZWMtYjM5Zi02MjQ0ZmE3NGUwM2MifQ.x5hHFxyEbNu9d-sIk9Qhj9ldhhbUW22CJJWPuzaPFpc' \
+ -H 'content-length: 415' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Near forget fire project gun air.","maxScore":75,"minScore":10,"description":"Safe color answer evidence relate she behind third. International couple reason list direction enjoy sell.\nHear TV investment instead local western. Beyond federal election still artist.","estimatedTime":"7 weeks","previewFileId":"722e5a46-5730-4e4c-bf29-76bba04ce873","createdByUserId":"f7d535d8-40a3-4cec-b39f-6244fa74e03c"}'

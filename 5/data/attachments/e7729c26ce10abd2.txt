@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDA5OjExOjU3LjcyNTY5MyIsInVzZXJfaWQiOiIzYWQwNWIyOC04NzkwLTRhNTQtODQ4OS05NmMyZTM1NDUxN2IifQ.OrdqOsT7HABdROd04JI_K-a6CEtukRGqjKzRsvIwJMs' \
+ -H 'content-length: 333' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Measure show look television peace.","maxScore":93,"minScore":19,"description":"Entire whom situation than control including risk. Understand marriage fire together actually try able.","estimatedTime":"3 weeks","previewFileId":"916627eb-8d6d-47a6-88fb-c0d3562caa50","createdByUserId":"3ad05b28-8790-4a54-8489-96c2e354517b"}'
