@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDEwOjA0OjMwLjQ3NzQ4NiIsInVzZXJfaWQiOiJjZGZkZTI1ZS0zMDM1LTRjOGEtOTU4MC0zOGUxOTc3ZTI4YWIifQ.NaNnYatJfjISZR-u302PNTIaEVEXJnKI3FZ_iN68ii4' \
+ -H 'content-length: 428' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Lot account last on term necessary send.","maxScore":75,"minScore":7,"description":"With treat voice only hospital wind ahead discuss. Sense maintain among near and suffer. Ability modern thank would pretty fire state.\nBillion record situation government. Human red hand quite.","estimatedTime":"6 weeks","previewFileId":"e10b0b74-d770-491f-b7db-5adac8b96dc4","createdByUserId":"cdfde25e-3035-4c8a-9580-38e1977e28ab"}'

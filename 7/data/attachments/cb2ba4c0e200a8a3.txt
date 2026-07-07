@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDEwOjA0OjMyLjgxMzk3OCIsInVzZXJfaWQiOiJlNjVlNTg5Mi1kZDNkLTRmY2ItYjVjYi0xODc0ZjJlYjE2NGYifQ.rOMshSR146qKJ-4QIPijfMgT8YuRsVZghoVTZPmFCYA' \
+ -H 'content-length: 391' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Yeah mission really here behavior window alone.","maxScore":87,"minScore":17,"description":"Foot probably effect course. Health member large suggest.\nSociety less edge apply trial bring. True environmental leader compare experience suggest.","estimatedTime":"1 weeks","previewFileId":"13ea3042-877b-4081-b25c-d1edef89a27b","createdByUserId":"e65e5892-dd3d-4fcb-b5cb-1874f2eb164f"}'

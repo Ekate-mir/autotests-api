@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDEwOjA0OjMyLjgxMzk3OCIsInVzZXJfaWQiOiJlNjVlNTg5Mi1kZDNkLTRmY2ItYjVjYi0xODc0ZjJlYjE2NGYifQ.rOMshSR146qKJ-4QIPijfMgT8YuRsVZghoVTZPmFCYA' \
+ -H 'content-length: 365' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Window even those rule.","courseId":"e61f093f-a8fd-4fef-835e-c3db7e54808f","maxScore":78,"minScore":18,"orderIndex":24,"description":"Of design expect record financial hour. Career worker believe wind month window exist.\nSerious various never look machine store improve. Hard poor animal sound.\nEffort choose think recently.","estimatedTime":"10 weeks"}'

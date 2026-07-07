@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDEwOjA0OjI4LjYwODYwNyIsInVzZXJfaWQiOiJkOTkxZTU5ZS0zNjc3LTQ0NzYtOWMxMy1mNzRjODY0NjI1ZWUifQ.QdpWFuZ3x_qzUQTBqdKLm_UiYeOm0qoxQoqQpEXZH70' \
+ -H 'content-length: 402' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Attack short along story cause keep.","maxScore":58,"minScore":7,"description":"Mention western at yes. Price compare budget trial dream.\nGo age take four. Remember thought big cold without century. Campaign bank plant against between respond popular.","estimatedTime":"5 weeks","previewFileId":"54de00d0-e85c-46d3-be3e-602583769120","createdByUserId":"d991e59e-3677-4476-9c13-f74c864625ee"}'

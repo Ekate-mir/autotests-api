@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/exercises/28543bc6-88c2-4b45-a379-efcd7c0ee4ae' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDEwOjA0OjMyLjQyNjg3MiIsInVzZXJfaWQiOiJiOTlmZmY2Yy1iNTI0LTRjZGYtYWYzMi1lMmZjM2ExZjM5NTMifQ.VbN7Bc15bc6JWLZAh9iwDEiDF4n0YX6BEAOfHIB58Bs' \
+ -H 'content-length: 322' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Million put behind little man risk never.","maxScore":89,"minScore":29,"orderIndex":31,"description":"Tonight they boy dream hospital. Policy both wait.\nOf wind above him. Friend season real example.\nProvide choice party single within imagine. Great card if energy young nearly new.","estimatedTime":"7 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDEwOjA0OjMzLjU5NTY2NSIsInVzZXJfaWQiOiJkYjg0ODI2MC03Nzk1LTQxNDgtODQ3Yi01MDIzMjY0YWJiYmYifQ.YKsD4ZKhjt-eXpS1NBTH6X9OO76vsk1ooJ90t3eqHYk' \
+ -H 'content-length: 347' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Animal reflect risk you.","maxScore":70,"minScore":6,"description":"Church set special painting wife stay. Myself state break where contain also view. Floor wonder general raise standard dark seem.","estimatedTime":"4 weeks","previewFileId":"a1fb5134-47a2-4045-b100-3f7700e55fdd","createdByUserId":"db848260-7795-4148-847b-5023264abbbf"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDEwOjA0OjI4LjI0Njg5MCIsInVzZXJfaWQiOiJhM2VlYTdjMS1kMjBiLTRkYzEtYjI1MS0xODgwMTNkYjIwOTUifQ.fxWQ8m-Y5DletQ8P07WRkW2mQnJtXlEZF_sPlt_UhZI' \
+ -H 'content-length: 396' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Along bag tree smile clearly because.","maxScore":73,"minScore":2,"description":"Individual anyone none onto western style painting. Painting bed prove collection pattern these test.\nData generation side score process. Action no store whole him.","estimatedTime":"5 weeks","previewFileId":"adb250fc-dc3c-4031-8a6b-6e4f2862f4bf","createdByUserId":"a3eea7c1-d20b-4dc1-b251-188013db2095"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDEwOjA0OjMyLjQyNjg3MiIsInVzZXJfaWQiOiJiOTlmZmY2Yy1iNTI0LTRjZGYtYWYzMi1lMmZjM2ExZjM5NTMifQ.VbN7Bc15bc6JWLZAh9iwDEiDF4n0YX6BEAOfHIB58Bs' \
+ -H 'content-length: 329' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Meet station floor.","courseId":"105c814b-1667-42a9-a32b-01b5815eb9ff","maxScore":68,"minScore":21,"orderIndex":37,"description":"Office cup country firm. Above others particularly they.\nPiece suddenly left voice score gas. Response memory dog form. South rich myself item expert operation.","estimatedTime":"6 weeks"}'

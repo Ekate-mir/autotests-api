@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/courses/97951d60-0d03-4548-8327-2988fbdce67e' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDEwOjA0OjMwLjQ3NzQ4NiIsInVzZXJfaWQiOiJjZGZkZTI1ZS0zMDM1LTRjOGEtOTU4MC0zOGUxOTc3ZTI4YWIifQ.NaNnYatJfjISZR-u302PNTIaEVEXJnKI3FZ_iN68ii4' \
+ -H 'content-length: 286' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Professor mouth name total skin impact.","maxScore":57,"minScore":25,"description":"Senior story enter business. Reduce hit everything suffer education. Long wrong skill pull serious ever common major. Not both truth father customer mouth campaign.","estimatedTime":"1 weeks"}'

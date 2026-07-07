@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDEwOjA0OjMyLjQyNjg3MiIsInVzZXJfaWQiOiJiOTlmZmY2Yy1iNTI0LTRjZGYtYWYzMi1lMmZjM2ExZjM5NTMifQ.VbN7Bc15bc6JWLZAh9iwDEiDF4n0YX6BEAOfHIB58Bs' \
+ -H 'content-length: 362' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Lot consumer top enjoy admit.","maxScore":59,"minScore":5,"description":"Maybe ok friend hit recently score. Floor street wear step.\nChild green impact. Democrat chair whom big laugh break. Light yard six movie.","estimatedTime":"1 weeks","previewFileId":"621fa63b-7ae7-4431-b61a-907f5155e60a","createdByUserId":"b99fff6c-b524-4cdf-af32-e2fc3a1f3953"}'
