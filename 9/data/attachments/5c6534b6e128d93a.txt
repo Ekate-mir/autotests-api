@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTEzVDExOjM0OjEwLjIyODM4MCIsInVzZXJfaWQiOiIwZWQzODIyMy1hZWRkLTQwYTUtODhjYS05N2RhNGI5NTlkZDIifQ.MiHMzxnBy1TwC69FrPwlndW05js-sWXUwVfVs6o_-Xk' \
+ -H 'content-length: 418' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Plan if her view American turn.","maxScore":88,"minScore":22,"description":"Everybody themselves dream. Boy safe sit. Happy head who choice.\nAgainst power program market something when.\nInterest effort then bit power anything. So see beautiful man compare eat bring.","estimatedTime":"8 weeks","previewFileId":"9834345d-2447-41c3-b8b9-7a455d1bc415","createdByUserId":"0ed38223-aedd-40a5-88ca-97da4b959dd2"}'

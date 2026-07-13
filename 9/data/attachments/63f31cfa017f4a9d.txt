@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/courses/da3e583b-4a42-432f-a0a2-1e36d2173bef' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTEzVDExOjM0OjA4LjY4NjUwMCIsInVzZXJfaWQiOiI5ZGJiMTljYS1jMzlkLTRkNjAtYjRiZC05ZWYzMGY0NTYyOWUifQ.d6zkW_tZSUi5YJ-R0dLYMZ7GNaEs-jjJly6UvfCQ0AY' \
+ -H 'content-length: 263' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Same enough necessary.","maxScore":91,"minScore":29,"description":"Join executive work simple. Bad choose measure rate difficult court.\nGood reality father suggest out. Leader world while total stock car. Tv follow rule sit.","estimatedTime":"5 weeks"}'

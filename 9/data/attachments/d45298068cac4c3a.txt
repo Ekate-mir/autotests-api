@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTEzVDExOjM0OjA2Ljk1MTk5MiIsInVzZXJfaWQiOiIzMWM2YTkzMi03MWY0LTQ1ZmMtOWVlOS0wOTI0NDE3ZjVkZTQifQ.NiBUQxiwC-R2z9RpGyMChlMt1mfieMTMWz5-YqdogzU' \
+ -H 'content-length: 331' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Customer understand stuff tree clear often how.","maxScore":90,"minScore":16,"description":"Station serve short vote include magazine animal. Out four well health area again doctor.","estimatedTime":"3 weeks","previewFileId":"acebab8c-7fb5-4b74-b56d-dc64b316515d","createdByUserId":"31c6a932-71f4-45fc-9ee9-0924417f5de4"}'

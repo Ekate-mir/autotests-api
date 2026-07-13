@@ -1,0 +1,23 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/3efa9427-ea87-41b7-9599-1ade6879b023
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/exercises/3efa9427-ea87-41b7-9599-1ade6879b023
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:64 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:43 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "title" equals to At travel machine act.
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "course_id" equals to 4dbf68e0-16dd-4acd-a7be-f84dfe8c7d9b
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "max_score" equals to 77
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "min_score" equals to 10
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "order_index" equals to 32
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "description" equals to College value friend pretty professional sister perhaps. Prevent officer home ready single finish take. Research food moment seven purpose bag individual.
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "estimated_time" equals to 1 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

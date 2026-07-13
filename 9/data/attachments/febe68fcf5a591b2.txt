@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTEzVDExOjM0OjA5Ljk1MDgwMSIsInVzZXJfaWQiOiIzZDk5YTU2NS1jOTY3LTRlZWMtYmVjOC1jNzBmMmIzZDVjZmEifQ.mobYIYV1P0H2LvBrjKucLoQG4w7FZehML3aplKxgPTo' \
+ -H 'content-length: 276' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Stay admit son it be letter leave.","maxScore":99,"minScore":6,"description":"Cut bill assume always there section task smile.","estimatedTime":"7 weeks","previewFileId":"87cb45d7-aecf-4241-9628-0979f242ae8d","createdByUserId":"3d99a565-c967-4eec-bec8-c70f2b3d5cfa"}'

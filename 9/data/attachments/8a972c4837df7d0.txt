@@ -1,0 +1,19 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:84 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "title" equals to Traditional major member like performance.
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "max_score" equals to 76
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "min_score" equals to 23
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "description" equals to Itself as country national century maybe. Wide beautiful pressure fear though feel between. Public with science I ever occur process.
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "estimated_time" equals to 7 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "preview_file" equals to a47b8c7a-0f37-4856-9b24-3e9ed64e555c
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "preview_file" equals to c314219a-d5d0-4b39-b671-225757f69326
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

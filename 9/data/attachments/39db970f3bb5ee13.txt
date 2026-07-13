@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTEzVDExOjM0OjA2Ljk1MTk5MiIsInVzZXJfaWQiOiIzMWM2YTkzMi03MWY0LTQ1ZmMtOWVlOS0wOTI0NDE3ZjVkZTQifQ.NiBUQxiwC-R2z9RpGyMChlMt1mfieMTMWz5-YqdogzU' \
+ -H 'content-length: 303' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Policy statement fall fact.","courseId":"6b68c34c-7979-4913-a1bd-f5ba733cbad1","maxScore":100,"minScore":1,"orderIndex":65,"description":"Wife miss enter for best dark third. Others area recently town Mrs standard. Responsibility movement reality politics indicate.","estimatedTime":"1 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTEzVDExOjM0OjA4LjEyNjE3NiIsInVzZXJfaWQiOiIyOWUwYjkwZi0zMWM4LTQwNDAtOGQyNC1iZjJmZDkxNjhjMWYifQ.owqiBqSk8uL7lPDkoIHA3bX4qFpHwWf-mD2xp4BuBDI' \
+ -H 'content-length: 357' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Management fight cup dinner.","maxScore":64,"minScore":14,"description":"Yeah project third yes you. Three concern window want.\nGrow those again shake machine that. Future million level face fear short or.","estimatedTime":"10 weeks","previewFileId":"de86709b-0ef1-49da-9be2-5b8da68c5be8","createdByUserId":"29e0b90f-31c8-4040-8d24-bf2fd9168c1f"}'

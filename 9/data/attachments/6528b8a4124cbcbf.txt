@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTEzVDExOjM0OjA4LjY4NjUwMCIsInVzZXJfaWQiOiI5ZGJiMTljYS1jMzlkLTRkNjAtYjRiZC05ZWYzMGY0NTYyOWUifQ.d6zkW_tZSUi5YJ-R0dLYMZ7GNaEs-jjJly6UvfCQ0AY' \
+ -H 'content-length: 340' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Yard person name writer child language after program.","maxScore":89,"minScore":20,"description":"New seek born give window right fight politics. Commercial budget billion top by more smile.","estimatedTime":"6 weeks","previewFileId":"1ae67925-aa3a-44bc-8d3e-4375458fd658","createdByUserId":"9dbb19ca-c39d-4d60-b4bd-9ef30f45629e"}'

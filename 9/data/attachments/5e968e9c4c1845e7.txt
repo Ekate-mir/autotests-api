@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTEzVDExOjM0OjA2LjY3NTExMyIsInVzZXJfaWQiOiJjMzE0MjE5YS1kNWQwLTRiMzktYjY3MS0yMjU3NTdmNjkzMjYifQ.qONgiEiPvrZ-NmIkzNYG6gkkCBOO63C_mqq4Omh2dBA' \
+ -H 'content-length: 370' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Traditional major member like performance.","maxScore":76,"minScore":23,"description":"Itself as country national century maybe. Wide beautiful pressure fear though feel between. Public with science I ever occur process.","estimatedTime":"7 weeks","previewFileId":"a47b8c7a-0f37-4856-9b24-3e9ed64e555c","createdByUserId":"c314219a-d5d0-4b39-b671-225757f69326"}'
