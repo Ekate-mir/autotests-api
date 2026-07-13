@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/courses/c5558239-e67c-4942-8e7e-09741dda0add' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTEzVDExOjI2OjIwLjY0NzQ4OCIsInVzZXJfaWQiOiIxYjQ3MDkyMC1kNzUyLTQ3ZDItYjI2Ny01Y2NhYjk3OTUxYzkifQ.HEJ1HQmAtKCnQ0THklKPuhOWdTq7jBcAxXZhMLOZe94' \
+ -H 'content-length: 254' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Single meet public goal significant possible day.","maxScore":56,"minScore":20,"description":"Left piece type newspaper everything a control. Direction method most paper might. May real protect form for thing region.","estimatedTime":"9 weeks"}'

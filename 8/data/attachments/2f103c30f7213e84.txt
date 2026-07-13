@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTEzVDExOjI2OjE4LjM4NzcwMCIsInVzZXJfaWQiOiI0MjRiNmJjMi0zMGY5LTRlNDYtOWYyZi0zNzg5MTA3ZTdiYWIifQ.BDi8K-McxXv5xNbGH2-CZ1Oe881CAPV8OhXpzyEVc1k' \
+ -H 'content-length: 392' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Radio agree mean wrong style.","maxScore":97,"minScore":16,"description":"Cover order instead seek at owner around share. Could mention test ability.\nSpecific candidate fly much listen assume return. Politics standard together quality well.","estimatedTime":"10 weeks","previewFileId":"8595178f-9739-43b3-9e0b-3c33394e303a","createdByUserId":"424b6bc2-30f9-4e46-9f2f-3789107e7bab"}'

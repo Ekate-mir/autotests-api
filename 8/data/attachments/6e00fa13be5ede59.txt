@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTEzVDExOjI2OjIwLjM0MDIxMSIsInVzZXJfaWQiOiJhOGYyY2ZlZS04MjVlLTQ4NWQtODcyMy0yYzVhMzk2MjgzZmIifQ.7iGDMBr0iPcH9Xlv126n_Tse69PmQH7Pe2-hWsfKSo0' \
+ -H 'content-length: 375' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Group radio Mr administration matter create collection.","courseId":"f90adce3-9f03-477d-8fa1-26999615abd7","maxScore":55,"minScore":26,"orderIndex":92,"description":"Dark though language crime skill. Movement seem level former. Song own cost involve identify sport.\nMany she adult activity shake reason road. Later scientist far artist.","estimatedTime":"5 weeks"}'

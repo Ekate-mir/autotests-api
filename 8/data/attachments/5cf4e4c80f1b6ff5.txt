@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/exercises/b8a91148-e07f-4e1d-99b4-8b2b7458b6ac' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTEzVDExOjI2OjIxLjIyOTUzMyIsInVzZXJfaWQiOiI1NWMwYzkwOS0yYzE4LTQ2MTEtOTU0ZC01YjAyYzE1NzgyMWUifQ.lE4DABZ7-8kvxXWxT08YEhDZs99rp25py-OJTX397l0' \
+ -H 'content-length: 323' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Mouth left back another receive thing.","maxScore":65,"minScore":2,"orderIndex":94,"description":"Money fight life security cost sound. Partner level building alone type.\nDrive power give on carry. Participant draw side so visit fund each report. Say artist read wait today same can.","estimatedTime":"10 weeks"}'

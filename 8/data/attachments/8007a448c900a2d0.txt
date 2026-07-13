@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTEzVDExOjI2OjIxLjIyOTUzMyIsInVzZXJfaWQiOiI1NWMwYzkwOS0yYzE4LTQ2MTEtOTU0ZC01YjAyYzE1NzgyMWUifQ.lE4DABZ7-8kvxXWxT08YEhDZs99rp25py-OJTX397l0' \
+ -H 'content-length: 380' \
+ -H 'content-type: application/json' \
+ -d '{"title":"By control run develop between.","maxScore":75,"minScore":19,"description":"Build herself laugh because stop. Economic part into compare PM laugh. To light discover better.\nSuffer attention single red identify better throw about.","estimatedTime":"7 weeks","previewFileId":"cd2c2f0d-b143-44fb-8b1b-79fff41f9d40","createdByUserId":"55c0c909-2c18-4611-954d-5b02c157821e"}'

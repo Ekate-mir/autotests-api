@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTEzVDExOjI2OjIwLjM0MDIxMSIsInVzZXJfaWQiOiJhOGYyY2ZlZS04MjVlLTQ4NWQtODcyMy0yYzVhMzk2MjgzZmIifQ.7iGDMBr0iPcH9Xlv126n_Tse69PmQH7Pe2-hWsfKSo0' \
+ -H 'content-length: 352' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Themselves hospital live crime.","maxScore":58,"minScore":11,"description":"Town decade analysis.\nWrong pay model show. Simply provide structure money ever its reason. Such then top yeah attention be.","estimatedTime":"10 weeks","previewFileId":"79ddb507-738c-4896-a52c-6de744239e21","createdByUserId":"a8f2cfee-825e-485d-8723-2c5a396283fb"}'

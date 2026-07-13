@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTEzVDExOjI2OjE4LjkxNDc4NyIsInVzZXJfaWQiOiIyYmE4NWNhNC1mYzA2LTRhMDQtOGEwNy00ZDdmOTY4NDhmZjEifQ.Atn3Me6Qa7oy8TAuRGDqcLx8SpXFTJyTOD8rVqJW2dU' \
+ -H 'content-length: 359' \
+ -H 'content-type: application/json' \
+ -d '{"title":"What according interview serve.","maxScore":97,"minScore":10,"description":"Great still phone contain raise learn heart. Blue probably collection condition especially conference. So participant size teach who.","estimatedTime":"5 weeks","previewFileId":"2e474fb0-534f-484a-b07f-a9a161bf943e","createdByUserId":"2ba85ca4-fc06-4a04-8a07-4d7f96848ff1"}'

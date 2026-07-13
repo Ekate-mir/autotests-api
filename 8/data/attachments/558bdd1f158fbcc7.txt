@@ -1,0 +1,18 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:84 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "title" equals to What according interview serve.
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "max_score" equals to 97
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "min_score" equals to 10
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "description" equals to Great still phone contain raise learn heart. Blue probably collection condition especially conference. So participant size teach who.
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "estimated_time" equals to 5 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "preview_file" equals to 2e474fb0-534f-484a-b07f-a9a161bf943e
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "preview_file" equals to 2ba85ca4-fc06-4a04-8a07-4d7f96848ff1
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema
