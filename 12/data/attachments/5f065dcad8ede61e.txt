@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE1VDEzOjM4OjE3LjM3ODAyNSIsInVzZXJfaWQiOiI2MzMzMzhlMy0yNDhhLTQ0NzItOWViMi0zMjc4NzM1NjhmOTAifQ.QOG0ylMqvGpJXcmN8nN-uW5m0XXngfPccsznvBdN1nk' \
+ -H 'content-length: 390' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Mention none back guy.","maxScore":53,"minScore":11,"description":"Type contain military responsibility high difference painting. Consumer lot despite able drive international live write.\nRight audience with opportunity discuss weight guy.","estimatedTime":"8 weeks","previewFileId":"f32807f6-e4f3-4bda-8f57-92edfdc7cf67","createdByUserId":"633338e3-248a-4472-9eb2-327873568f90"}'

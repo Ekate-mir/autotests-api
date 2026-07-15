@@ -1,0 +1,19 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:26 Make PATCH request to http://localhost:8000/api/v1/courses/91b9ebe0-dd5d-4465-9191-30a3f1a1958b
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/courses/91b9ebe0-dd5d-4465-9191-30a3f1a1958b
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:23 Check update course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "title" equals to Significant peace kid statement.
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "max_score" equals to 64
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "min_score" equals to 8
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "description" equals to Their spend parent work chance sure style something. Player off Mrs stop itself. Wrong her blue either.
+Miss last leg month. Trial some although step. Forget general identify particular.
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "estimated_time" equals to 10 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

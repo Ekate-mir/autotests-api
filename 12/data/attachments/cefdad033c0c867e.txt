@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE1VDEzOjM4OjE3LjE0MTc4MCIsInVzZXJfaWQiOiI0ZmNjNTk5MS0yNDIyLTQ5NmEtYTEzNi0wNjAyYTNjNWNlNWQifQ.fDHAKJXs1ED-Gz6jtB8AVygp_CW6sZTnLtFGo7KOEZY' \
+ -H 'content-length: 322' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Return no east response.","maxScore":68,"minScore":8,"description":"Consider summer ever top young. Ball stand part blood consider. Draw whole professor wear response hope.","estimatedTime":"5 weeks","previewFileId":"0d543b56-0b7b-47fc-8aba-92ca995055b3","createdByUserId":"4fcc5991-2422-496a-a136-0602a3c5ce5d"}'

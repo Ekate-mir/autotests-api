@@ -1,0 +1,24 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/9739c777-d1f8-4841-9f0f-b7e2e9a7d425
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/exercises/9739c777-d1f8-4841-9f0f-b7e2e9a7d425
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:64 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:43 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "title" equals to Ability off during his remember part.
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "course_id" equals to dba9eed9-95b6-4b6e-a37c-f8731d5573f4
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "max_score" equals to 59
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "min_score" equals to 21
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "order_index" equals to 86
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "description" equals to Several control husband owner debate case fire. Town memory focus change very senior.
+There price nothing including improve group usually. Letter expert take indicate table. A skin arrive say.
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "estimated_time" equals to 2 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/exercises/03f0bb51-542a-4f4a-9e0e-91f14ac49ab7' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE1VDEzOjM4OjE3LjM3ODAyNSIsInVzZXJfaWQiOiI2MzMzMzhlMy0yNDhhLTQ0NzItOWViMi0zMjc4NzM1NjhmOTAifQ.QOG0ylMqvGpJXcmN8nN-uW5m0XXngfPccsznvBdN1nk' \
+ -H 'content-length: 252' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Bed current include resource southern out professional.","maxScore":92,"minScore":7,"orderIndex":50,"description":"Tend operation human condition nature almost. Town than PM moment. Discussion a country two within.","estimatedTime":"7 weeks"}'

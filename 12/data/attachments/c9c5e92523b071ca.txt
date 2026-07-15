@@ -1,0 +1,22 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:23 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "title" equals to Direction federal executive evening everyone remain appear machine.
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "course_id" equals to 926c6025-a6fb-4af5-bdf1-b374ee802236
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "max_score" equals to 82
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "min_score" equals to 9
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "order_index" equals to 96
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "description" equals to Early two executive small eat. Majority sister her reason.
+Economy practice room effort brother book. Each commercial throw opportunity state surface politics business. More young thought fall five.
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

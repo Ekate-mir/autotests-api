@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE1VDEzOjM4OjE1Ljc2MTYyOCIsInVzZXJfaWQiOiJlZjQ3YjZkZi1hOWU4LTQ3MGQtODhkZi1mNjhjYWMzMGE3MWEifQ.CNm_j9Q5359VJcEfCUR-ZWlCc0emyFUJOCT0WR035Sk' \
+ -H 'content-length: 323' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Voice return agency prepare fact.","maxScore":51,"minScore":25,"description":"Call series question TV affect quickly company. Yes Mrs hand they contain increase environment.","estimatedTime":"2 weeks","previewFileId":"2be93f9a-b8c6-4e39-a4ff-306f0529a6ee","createdByUserId":"ef47b6df-a9e8-470d-88df-f68cac30a71a"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/courses/91b9ebe0-dd5d-4465-9191-30a3f1a1958b' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE1VDEzOjM4OjE0Ljg0MjQyMCIsInVzZXJfaWQiOiIzNjI2Y2UyOS1kMDYzLTQwYzAtOWQ1MC00NzM4ZGM3NTk1ZTcifQ.KddETm5DseQyGrsUmnGCedm4ZzSD60Dl_jMIlwWV3uk' \
+ -H 'content-length: 302' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Significant peace kid statement.","maxScore":64,"minScore":8,"description":"Their spend parent work chance sure style something. Player off Mrs stop itself. Wrong her blue either.\nMiss last leg month. Trial some although step. Forget general identify particular.","estimatedTime":"10 weeks"}'
