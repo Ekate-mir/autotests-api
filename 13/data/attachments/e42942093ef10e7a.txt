@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE1VDEzOjQyOjE1LjM3Nzg5NiIsInVzZXJfaWQiOiI0NGQzYjVhMC0yOTk2LTQyNTUtYTJmMS1lN2UyMmJjMzk3ZmIifQ.6I0GvBrhdU4vOZICXo0PPAr4oaDBGDNKAocFv36QoGA' \
+ -H 'content-length: 389' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Such account southern focus machine money.","courseId":"ef22e750-0cc7-43dd-bb71-be4acb16f00a","maxScore":82,"minScore":29,"orderIndex":51,"description":"Pm tough look rock himself people.\nGround which art century wear.\nOne size total focus free. Safe right shake.\nApproach no laugh media near job contain number. Skill operation may follow benefit.","estimatedTime":"9 weeks"}'

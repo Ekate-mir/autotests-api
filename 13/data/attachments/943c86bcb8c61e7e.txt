@@ -1,0 +1,24 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/8559146d-a744-461a-b52e-b63dd6c09f7f
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/exercises/8559146d-a744-461a-b52e-b63dd6c09f7f
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:64 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:43 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "title" equals to Couple charge difficult citizen citizen.
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "course_id" equals to ff30efb7-dbc4-42f6-af97-81a2de6eb96f
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "max_score" equals to 96
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "min_score" equals to 23
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "order_index" equals to 18
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "description" equals to Me effort in hear fear full. Leave avoid consider management.
+Unit red than away few reason near. Good tree throw affect performance. Price data arm.
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "estimated_time" equals to 2 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

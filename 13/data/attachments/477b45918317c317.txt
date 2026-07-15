@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE1VDEzOjQyOjE2LjkzNTYwNSIsInVzZXJfaWQiOiI4OWZiYTUxZi0yYzM2LTRhZTctOGMwYS1hMjc1NTBjYWIzY2EifQ.YLfHQXLnMzg99NmXG5nLCpgk6GZawZz7k07Lm7LtCfQ' \
+ -H 'content-length: 371' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Become tough billion somebody.","courseId":"321a10d1-6a16-4ed7-a761-084b951ac0d0","maxScore":64,"minScore":5,"orderIndex":49,"description":"Down party cost smile forward area compare keep. Quality record not purpose. Itself rather back create travel protect last.\nNow model opportunity family be set. Likely science site your large.","estimatedTime":"9 weeks"}'

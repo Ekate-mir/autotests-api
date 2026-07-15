@@ -1,0 +1,19 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:84 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "title" equals to Charge amount police likely hot.
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "max_score" equals to 63
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "min_score" equals to 18
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "description" equals to Sea home art either eat pressure movement letter. Reveal open effort individual themselves.
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "estimated_time" equals to 8 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "preview_file" equals to b774e556-3346-4b6f-89d8-d77b2842007e
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "preview_file" equals to 474ad15a-7af1-4843-bb20-3d8bd48e92bb
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema
