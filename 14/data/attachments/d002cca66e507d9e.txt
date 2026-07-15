@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE1VDE0OjMxOjQwLjE4ODQzNSIsInVzZXJfaWQiOiI2Zjg3ZjFjZC1jMzc4LTRhOGItYjEyNC1jYzlmYWE4ZDdhMjcifQ.oiHt8Av91lhY--6RmYK3nwQf2cj6jdjrwILFDSpBF4k' \
+ -H 'content-length: 302' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Summer sell room.","courseId":"051bfc96-4560-4355-af26-61ec71d0b95c","maxScore":98,"minScore":29,"orderIndex":95,"description":"Law success team still ready. Turn free character sort.\nMight natural fill sometimes authority summer. Information realize ten clearly.","estimatedTime":"7 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE1VDE0OjMxOjM5LjgzMTQ1NCIsInVzZXJfaWQiOiIyZTc5NjUwYy03NTY3LTRiNTAtODVhNC02ZmRkNzZiZGM1MjUifQ.ScthT-MpxAoc3deRtuGF3D9mH0IepqmoQSx2S_oM6RM' \
+ -H 'content-length: 382' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Add red close candidate senior matter cost interview.","courseId":"ce3c4716-380f-458f-9524-3f5d9958cf38","maxScore":89,"minScore":7,"orderIndex":88,"description":"Before just travel support trip. Government customer far know. Seat yet investment which build spring wear.\nArt table term. Of traditional me. Set than training little hit control.","estimatedTime":"6 weeks"}'

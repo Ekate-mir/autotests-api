@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE1VDE0OjMxOjM5LjIxNjk1MCIsInVzZXJfaWQiOiIwMzdhYWM3ZC01ZmUxLTRkZDEtYmUxNy0wYjZkNDA4NTYxOWYifQ.5sDrTX2d9Nuf3DWTpW7ZcHGa96OBKbzR_jVw7Lx_DFU' \
+ -H 'content-length: 402' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Phone soldier natural base most brother.","maxScore":84,"minScore":7,"description":"City treatment tonight identify better economic large born. Bring resource entire even reflect let.\nMany forget page forget loss. Finish rest offer consider think any.","estimatedTime":"8 weeks","previewFileId":"3cb8130a-d2cc-43bd-8c1d-c9bcdb09d23b","createdByUserId":"037aac7d-5fe1-4dd1-be17-0b6d4085619f"}'

@@ -1,0 +1,33 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/courses?userId=d61044be-499e-43db-bc6d-aa08538b5efe
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/courses?userId=d61044be-499e-43db-bc6d-aa08538b5efe
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:66 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:72 Check that length of "courses" is equal to 1
+INFO     COURSES_ASSERTIONS:courses.py:41 Check course
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "id" equals to 8fd1ab9e-c430-4fa5-9716-2e8433ceffe0
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "title" equals to Mention measure defense travel easy really.
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "max_score" equals to 85
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "min_score" equals to 13
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "description" equals to Measure cup tonight daughter and simply.
+Four star whole unit. Clearly compare product institution when policy whom. Might story owner conference actually. Too laugh address indicate through.
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "estimated_time" equals to 8 weeks
+INFO     FILES_ASSERTIONS:files.py:41 Check file
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "id" equals to 44180d5c-6b06-4033-8dc4-58a4bf16fa14
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "url" equals to http://localhost:8000/static/tests/710c85e1-a380-4b2c-911d-2ae94d7c09ad.png
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "filename" equals to 710c85e1-a380-4b2c-911d-2ae94d7c09ad.png
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "directory" equals to tests
+INFO     USERS_ASSERTIONS:users.py:36 Check user
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "id" equals to d61044be-499e-43db-bc6d-aa08538b5efe
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "email" equals to louis83@example.net
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "last_name" equals to Hill
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "first_name" equals to Emma
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "middle_name" equals to Samantha
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

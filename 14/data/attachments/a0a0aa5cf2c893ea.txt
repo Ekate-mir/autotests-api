@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE1VDE0OjMxOjQwLjE4ODQzNSIsInVzZXJfaWQiOiI2Zjg3ZjFjZC1jMzc4LTRhOGItYjEyNC1jYzlmYWE4ZDdhMjcifQ.oiHt8Av91lhY--6RmYK3nwQf2cj6jdjrwILFDSpBF4k' \
+ -H 'content-length: 415' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Trip season little pass.","maxScore":68,"minScore":13,"description":"Hair know garden lead measure last. North officer I face bank bank plan stop. Star position Republican half make issue maybe.\nAvailable word social. Top race community create as program maintain.","estimatedTime":"9 weeks","previewFileId":"37895257-0737-4c9b-b168-419b488a33f7","createdByUserId":"6f87f1cd-c378-4a8b-b124-cc9faa8d7a27"}'
