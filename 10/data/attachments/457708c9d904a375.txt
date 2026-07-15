@@ -1,0 +1,20 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:84 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "title" equals to Image much cause state case identify.
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "max_score" equals to 57
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "min_score" equals to 15
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "description" equals to Pay reveal stuff throughout wife bed deal. Moment benefit economy something.
+Onto hour accept low theory could smile. Face military school right its.
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "estimated_time" equals to 9 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "preview_file" equals to 0b6219bc-3e63-4eea-a415-9216de554bb3
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "preview_file" equals to ae5b5b9a-be1c-4e81-a958-a8c6c129941e
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

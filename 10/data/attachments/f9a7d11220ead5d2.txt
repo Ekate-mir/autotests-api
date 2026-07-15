@@ -1,0 +1,21 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:23 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "title" equals to Environmental become news certainly.
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "course_id" equals to 2bddcf36-dfc5-4280-abba-fdf260972694
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "max_score" equals to 68
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "min_score" equals to 3
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "order_index" equals to 76
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "description" equals to Front alone street city action.
+Need off crime whose or four guess. Forget budget training value. Treatment technology seven few bit claim moment.
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

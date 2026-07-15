@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE1VDA3OjM2OjE1Ljk0NTIxNSIsInVzZXJfaWQiOiIxNjE4N2U1NS00NDAyLTQ4ZWMtOTNlNS03MzUwMGQ1ZjE5MTUifQ.p8GNwREPiZpB0UDR27KpzhTZUf4KwWf4cJJg3XQBHKs' \
+ -H 'content-length: 373' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Total former his himself site along item.","maxScore":59,"minScore":2,"description":"Wait born respond book yourself effort. Painting different sometimes book. Only positive road difficult maintain lay. Help method support.","estimatedTime":"2 weeks","previewFileId":"cbd425fc-38ea-426d-af3e-2d4a4b20893b","createdByUserId":"16187e55-4402-48ec-93e5-73500d5f1915"}'

@@ -1,0 +1,24 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/42202228-a7bd-44fb-bc2d-5fc524f17877
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/exercises/42202228-a7bd-44fb-bc2d-5fc524f17877
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:64 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:43 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "title" equals to However cell would specific.
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "course_id" equals to 6cedb987-dd41-45b8-8ad9-d822e6c10c91
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "max_score" equals to 78
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "min_score" equals to 13
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "order_index" equals to 32
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "description" equals to Nature event entire ground outside. Successful hear production community.
+Detail despite help. Often establish care suggest agent boy.
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "estimated_time" equals to 6 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

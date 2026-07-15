@@ -1,0 +1,17 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:35 Got 422 Unprocessable Content from http://localhost:8000/api/v1/files
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 422
+INFO     FILES_ASSERTIONS:files.py:97 Check create file with empty directory response
+INFO     FILES_ASSERTIONS:errors.py:40 Check validation error response
+INFO     BASE_ASSERTIONS:base.py:72 Check that length of "details" is equal to 1
+INFO     FILES_ASSERTIONS:errors.py:18 Check validation error
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "type" equals to string_too_short
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "input" equals to 
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "context" equals to {'min_length': 1}
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "message" equals to String should have at least 1 character
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "location" equals to ['body', 'directory']
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

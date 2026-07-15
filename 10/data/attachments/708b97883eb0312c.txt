@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE1VDA3OjM2OjE3LjEyNzY4MSIsInVzZXJfaWQiOiI3YjMxNDY3Yi02ZDQ3LTQxNDQtYmE3Ny0xMzQwNmE1YjU1ZWEifQ.2ibiOX21T3qFSaDxL3le7AuzEQGRHdtRbwaGSTFZeeQ' \
+ -H 'content-length: 312' \
+ -H 'content-type: application/json' \
+ -d '{"title":"However cell would specific.","courseId":"6cedb987-dd41-45b8-8ad9-d822e6c10c91","maxScore":78,"minScore":13,"orderIndex":32,"description":"Nature event entire ground outside. Successful hear production community.\nDetail despite help. Often establish care suggest agent boy.","estimatedTime":"6 weeks"}'

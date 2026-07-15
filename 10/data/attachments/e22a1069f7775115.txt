@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE1VDA3OjM2OjE2Ljg0NTA3NyIsInVzZXJfaWQiOiJkZGMwMDZhZS0yZGNmLTRkNWItYmYwYi1lZmQwOGY3NTZlZDIifQ.tUtC_HrRoKelVZMpO4ZvBtVKNFJ9SGMboSyxNa6zwLg' \
+ -H 'content-length: 354' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Piece off her each dog.","maxScore":60,"minScore":5,"description":"Check bag author low. Argue money anyone serve any amount. Stand show beautiful.\nThank several your can. Dog factor language now simply.","estimatedTime":"4 weeks","previewFileId":"141b0f51-4507-4574-8b05-a2a7044c08d6","createdByUserId":"ddc006ae-2dcf-4d5b-bf0b-efd08f756ed2"}'

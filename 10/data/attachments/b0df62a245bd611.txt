@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE1VDA3OjM2OjE3LjcyODQ1MCIsInVzZXJfaWQiOiI0N2RhM2U2ZS00MzU2LTQ3YzYtODA1ZS02YTQ0NTQ5MTk0ZWEifQ.H-UGnJMVnY6fFkC3J_O6PvIweHe11YcQFxxjovN2i2E' \
+ -H 'content-length: 376' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Least there important alone identify.","maxScore":93,"minScore":30,"description":"Baby effect process. Education through idea follow. Million stand career work charge rate section.\nFactor eat agree couple management science.","estimatedTime":"10 weeks","previewFileId":"db58f487-cc94-4ac8-9870-ec6368342d52","createdByUserId":"47da3e6e-4356-47c6-805e-6a44549194ea"}'

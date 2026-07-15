@@ -1,0 +1,24 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises?courseId=31a86d1e-70f0-4588-a91a-c3b425512f37
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/exercises?courseId=31a86d1e-70f0-4588-a91a-c3b425512f37
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:113 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:72 Check that length of "exercise" is equal to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:43 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "title" equals to Star officer development for local example defense.
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "course_id" equals to 31a86d1e-70f0-4588-a91a-c3b425512f37
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "max_score" equals to 58
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "min_score" equals to 23
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "order_index" equals to 88
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "description" equals to Sport mention including marriage leave leave. Suffer tend think environment box. Wide simply environmental.
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "estimated_time" equals to 10 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

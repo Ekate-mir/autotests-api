@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE1VDA3OjM2OjE1LjA3NDU3MSIsInVzZXJfaWQiOiJhZTViNWI5YS1iZTFjLTRlODEtYTk1OC1hOGM2YzEyOTk0MWUifQ.2GoQE25j7huIV_dEcift7LRqmpf2Vktw0Ravia1YbeA' \
+ -H 'content-length: 382' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Image much cause state case identify.","maxScore":57,"minScore":15,"description":"Pay reveal stuff throughout wife bed deal. Moment benefit economy something.\nOnto hour accept low theory could smile. Face military school right its.","estimatedTime":"9 weeks","previewFileId":"0b6219bc-3e63-4eea-a415-9216de554bb3","createdByUserId":"ae5b5b9a-be1c-4e81-a958-a8c6c129941e"}'
