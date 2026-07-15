@@ -1,0 +1,24 @@
+llm:
+  provider: CLAUDE
+  meta:
+    model: claude-3-sonnet
+    max_tokens: 15000
+    temperature: 0.3
+  http_client:
+    timeout: 120
+    api_url: https://api.anthropic.com
+    api_version: 2023-06-01
+
+vcs:
+  provider: GITHUB
+  http_client:
+    api_url: https://api.github.com
+    timeout: 120
+
+prompt:
+  inline_prompt_files: [ ./prompts/inline.md ]
+  context_prompt_files: [ ./prompts/inline.md ]
+  summary_prompt_files: [ ./prompts/summary.md ]
+
+review:
+  dry_run: false
