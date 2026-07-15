@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/exercises/8e499e3f-98fe-4f38-91eb-189d3e86d123' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE1VDA3OjUwOjU4LjI5NjA2MyIsInVzZXJfaWQiOiIzMGU2MWE5NC1hMjE5LTQ0MWQtODdmNi02MzFmNWI1YmJiNDIifQ.i03EMyMa1YrMG9B5aarjDgKhM7aGXUrOyYjjaV5sHzw' \
+ -H 'content-length: 222' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Its interest walk.","maxScore":97,"minScore":26,"orderIndex":54,"description":"Affect best its particular manage. Speak several kind amount. Wonder public over movie much seat general.","estimatedTime":"6 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE1VDA3OjUwOjU1LjM2ODQxMiIsInVzZXJfaWQiOiIyZDIyMzhiZS0zNDEwLTRjMDYtYjY3MS0yMDMzNzBiN2YyODgifQ.oQ_vLhZONWFVQkAmq1-hwtyGUciylX4eFmVhA-ZUMSU' \
+ -H 'content-length: 395' \
+ -H 'content-type: application/json' \
+ -d '{"title":"First blue improve interesting.","maxScore":92,"minScore":13,"description":"Both stand set decade pay course there. A half increase after opportunity day morning.\nNation food race beat. School require fact education already organization change.","estimatedTime":"5 weeks","previewFileId":"f5545095-afbb-437c-b3fe-4914a0ee34dc","createdByUserId":"2d2238be-3410-4c06-b671-203370b7f288"}'

@@ -1,0 +1,23 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/ad6cd171-dead-4a69-ae47-129602188d6e
+INFO     HTTP_LOGER:event_hooks.py:35 Got 200 OK from http://localhost:8000/api/v1/exercises/ad6cd171-dead-4a69-ae47-129602188d6e
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:64 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:43 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "title" equals to Image amount bag way probably.
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "course_id" equals to 22e2f545-c390-43e0-84ba-2c1dc22651cc
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "max_score" equals to 59
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "min_score" equals to 13
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "order_index" equals to 89
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "description" equals to Be they policy leader within. Month suffer hold teacher despite crime. Necessary tough form sound. Special place throughout general.
+INFO     BASE_ASSERTIONS:base.py:36 Check that response "estimated_time" equals to 7 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

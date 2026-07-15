@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE1VDA3OjUwOjU1LjM2ODQxMiIsInVzZXJfaWQiOiIyZDIyMzhiZS0zNDEwLTRjMDYtYjY3MS0yMDMzNzBiN2YyODgifQ.oQ_vLhZONWFVQkAmq1-hwtyGUciylX4eFmVhA-ZUMSU' \
+ -H 'content-length: 373' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Still along car sure magazine.","courseId":"09802a3e-adc5-4a0a-99f1-37dcc094ba2b","maxScore":66,"minScore":28,"orderIndex":60,"description":"Question value fly college recognize. Outside husband behind sign design notice.\nStreet simple main year under. Card buy example professional experience house. Space get late song concern else.","estimatedTime":"1 weeks"}'

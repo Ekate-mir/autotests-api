@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE1VDA3OjUwOjU2LjUyNzE2MSIsInVzZXJfaWQiOiIyMjQxMmZiMC00YmIxLTQ1YTEtYmQ1OS1iZTdiMmNjYzliMTEifQ.PXqQYvwl4l05wz0HOYv1z_J9pWdTFWuak_Bt_4OIIn8' \
+ -H 'content-length: 415' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Behavior create month your direction improve.","maxScore":93,"minScore":17,"description":"Law quite fall herself. Friend same fill dog.\nCommunity character after leader with daughter. Part safe character loss senior capital. Present lawyer someone over experience.","estimatedTime":"4 weeks","previewFileId":"0e9fb9f9-4cfa-4e25-b4f5-6a4ea3f6e98f","createdByUserId":"22412fb0-4bb1-45a1-bd59-be7b2ccc9b11"}'

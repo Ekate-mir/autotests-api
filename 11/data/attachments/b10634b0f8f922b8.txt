@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE1VDA3OjUwOjU1LjA5MTI3NCIsInVzZXJfaWQiOiJiM2FiMmI5Zi0zMWQzLTRlYmItYjUyZS1kOWRkMTJhZTJkNjAifQ.qLOoTNL7Vd010yhfdcR2fcb0vZbGWsk8prNAQ2SVIwI' \
+ -H 'content-length: 382' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Word apply including tree fall.","maxScore":81,"minScore":14,"description":"Himself left ago cell. Pick investment back.\nCold share know short society throughout. Course evening believe week but beyond future. Region over in able.","estimatedTime":"10 weeks","previewFileId":"ccc8d770-93a0-445b-aa20-e0f4d39b2922","createdByUserId":"b3ab2b9f-31d3-4ebb-b52e-d9dd12ae2d60"}'

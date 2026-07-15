@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE1VDA3OjUwOjU4LjI5NjA2MyIsInVzZXJfaWQiOiIzMGU2MWE5NC1hMjE5LTQ0MWQtODdmNi02MzFmNWI1YmJiNDIifQ.i03EMyMa1YrMG9B5aarjDgKhM7aGXUrOyYjjaV5sHzw' \
+ -H 'content-length: 338' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Condition degree dinner act great.","maxScore":70,"minScore":29,"description":"Away practice as wonder yes board economy. Discover charge federal study. Social evidence market purpose Mrs.","estimatedTime":"4 weeks","previewFileId":"34409696-4a88-4b81-81a7-256be33e5ebb","createdByUserId":"30e61a94-a219-441d-87f6-631f5b5bbb42"}'
